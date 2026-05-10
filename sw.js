@@ -1,5 +1,5 @@
 // Update this version string on each major deploy to invalidate stale caches
-const CACHE = "anilmamidwar-v1";
+const CACHE = "anilmamidwar-v2";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.add("/")));
