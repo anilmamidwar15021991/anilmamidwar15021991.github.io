@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://anilmamidwar15021991.dev/sitemap.xml
+Sitemap: https://anilmamidwar.in/sitemap.xml
             
