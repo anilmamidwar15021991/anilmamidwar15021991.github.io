@@ -10,3 +10,4 @@ export * from "./Nav";
 export * from "./OpenSource";
 export * from "./Projects";
 export * from "./Skills";
+export * from "./Testimonials";

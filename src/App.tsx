@@ -5,6 +5,9 @@ import { Nav } from "./components/Nav";
 import { Hero } from "./components/Hero";
 import { ErrorBoundary } from "./components/ErrorBoundary";
 
+const Testimonials = lazy(() =>
+  import("./components/Testimonials").then((m) => ({ default: m.Testimonials })),
+);
 const About = lazy(() =>
   import("./components/About").then((m) => ({ default: m.About })),
 );
@@ -45,6 +48,7 @@ export function App() {
           <Hero />
           <ErrorBoundary>
             <Suspense>
+              <Testimonials />
               <About />
               <Skills />
               <Projects />

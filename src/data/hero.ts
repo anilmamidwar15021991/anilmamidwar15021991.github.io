@@ -19,6 +19,6 @@ export const hero = {
   floatChips: [
     { label: "VBA · RPA · IPA", style: "P" as const },
     { label: "GenAI · RAG · LLMs", style: "C" as const },
-    { label: "9+ years software engineering", style: "G" as const },
+    { label: "11+ years software engineering", style: "G" as const },
   ] satisfies HeroChip[],
 };
